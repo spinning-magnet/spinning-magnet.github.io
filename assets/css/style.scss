@@ -4,3 +4,13 @@
 @import '{{ site.theme }}';
 
 /* append your custom style below */
+
+mark {
+  background-color: rgba(0, 255, 157, 0.499);
+  color: #000;
+}
+
+mark.yellow {
+  background-color: rgba(212, 255, 0, 0.499);
+  color: #000;
+}

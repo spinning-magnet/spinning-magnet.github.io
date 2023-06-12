@@ -1,0 +1,1 @@
+* Remove affiliate links in xr to vesc guide
