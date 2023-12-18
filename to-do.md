@@ -1,1 +1,2 @@
-* Remove affiliate links in xr to vesc guide
+- Remove affiliate links in xr to vesc guide
+- test commit
