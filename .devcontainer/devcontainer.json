@@ -1,0 +1,22 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/python
+{
+  "name": "Spinning Magnet",
+  // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+  "build": {
+    "dockerfile": "../Dockerfile.dev"
+  },
+  "forwardPorts": [4000],
+  "customizations": {
+    // Configure properties specific to VS Code.
+    "vscode": {
+      "extensions": [
+        "ms-azuretools.vscode-docker",
+        "Gruntfuggly.todo-tree",
+        "GitHub.copilot-chat",
+        "GitHub.copilot",
+        "Shopify.ruby-lsp"
+      ]
+    }
+  }
+}
