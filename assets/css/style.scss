@@ -14,3 +14,34 @@ mark.yellow {
   background-color: rgba(212, 255, 0, 0.499);
   color: #000;
 }
+
+
+
+// CSS for image galleries
+
+.gallery {
+  display: flex;
+  margin: 20px;
+  overflow-x: auto;
+}
+
+.gallery figure {
+  margin: 0;
+  min-width: 100px;
+  max-width: 320px;
+  padding: 10px;
+  width: 100%;
+  height: auto;
+  float: left;
+  overflow: scroll;
+}
+
+figcaption {
+  font-size: 0.8em;
+  text-align: center;
+  color: #999;
+  margin-top: 0.5em;
+  overflow: hidden;
+}
+
+// End CSS for image galleries

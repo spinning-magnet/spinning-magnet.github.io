@@ -15,7 +15,8 @@
         "Gruntfuggly.todo-tree",
         "GitHub.copilot-chat",
         "GitHub.copilot",
-        "Shopify.ruby-lsp"
+        "Shopify.ruby-lsp",
+        "yzhang.markdown-all-in-one"
       ]
     }
   }
